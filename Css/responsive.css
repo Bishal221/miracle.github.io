@@ -1,0 +1,185 @@
+@media (max-width: 1300px){
+
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 1100px){
+    .card_container{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .btn_learn_more{
+        margin-bottom: 30px;
+    }
+    .card:nth-child(odd){
+        top: 0px;
+    }
+    .card:nth-child(even){
+        top: 0px;
+    }
+    .interest .container .col-1 h1{
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        position: relative;
+      }
+}
+
+@media (max-width: 992px){
+    .service_card_container{
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .big_card .container .big_card .big_card_content span{
+        padding: 3px 10px;
+        margin: 0 5px;
+        font-size: 0.75rem;
+      }
+}
+
+@media (max-width: 768px){
+    .navbar .container .menu{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    top: 75px;
+    right: -300px;
+    background: #111111;
+    align-items: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    
+    
+    .navbar .container .menu a{
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    #menu_toggle{
+        display: inline-block;
+    }
+    .hero{
+        height: 10vh;
+    }
+    .card_section .container h1{
+        width: 90%;
+        font-size: 2rem;
+    }
+    .card{
+        width: 360px;
+    }
+    .user_content_data{
+        margin: 0 5px;
+        font-size: 0.70rem;
+    }
+    .service_card_container{
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .interest .container{
+        gap: 0;
+      }
+      .interest .container{
+        flex-direction: column;
+      }
+      .interest .container .col{
+        width: 100%;
+      }
+      .interest .container .col-1 h1{
+        text-align: center;
+        font-size: 3rem;
+      }
+      .interest .container .col-1 h1::before{
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .interest .container .col-2 p{
+        font-size: 1rem;
+      }
+      .big_card .container .big_card img{
+        margin-bottom: 10px;
+      }
+      .big_card .container .big_card .big_card_content{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .big_card .container .big_card .big_card_content span{
+        padding: 3px 10px;
+        margin: 0px 5px 5px;
+        font-size: 0.75rem;
+      }
+      /* .report .container{
+        flex-direction: column;
+      } */
+      .report_data .report_data_icon i{
+        font-size: 1.75rem;
+        margin-right: 10px;
+      }
+      .report_data .report_data_contain h3{
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 0.9;
+      }
+      .report_data .report_data_contain span{
+        font-size: 0.5rem;
+      }
+      .contact .container{
+        height: 300px;
+      }
+      .contact .container h1{
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+      }
+      
+    
+}
+
+@media (max-width: 576px){
+    .service_card_container{
+        grid-template-columns: 1fr;
+      }
+      .interest .container .col-1 h1{
+        font-size: 2.5rem;
+      }
+      .big_card .container{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .big_card .container .big_card{
+        min-width: 100%;
+      }
+      .report .container{
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+      .report_data{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+      .report_data .report_data_icon i{
+        font-size: 2.25rem;
+      }
+      .report_data .report_data_contain h3{
+        font-size: 2.25rem;
+        font-weight: 400;
+        line-height: 0.9;
+      }
+      .report_data .report_data_contain span{
+        font-size: 0.75rem;
+      }
+      .contact .container h1{
+        font-size: 2rem;
+      }
+      footer .container p{
+        width: 100%;
+      }
+}
+
+@media (max-width: 350px){
+
+}
